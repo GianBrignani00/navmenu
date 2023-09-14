@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.nav{
+    background-color: gray;
+    height: 650px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: -5px 0px 30px rgb(148, 144, 144);
+    margin-left: 20px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+
+#btnPrincipal {
+    position: absolute;
+    top: 9%;
+    left: 4.5%;
+}
+
+.menu{
+    background: transparent;
+    border: none;
+}
+
+
+.btnSecundariosContainer {
+    display: grid;
+    position: absolute; 
+    margin-left: 46px;
+    list-style: none;
+} 
+
+.animacion{
+    transition: transform 0.5s ease;
+    margin-top: 50px;
+}
+.animacion:hover{
+    transform: translateX(70px); 
+}
+
+.home{
+background: #A905B6;
+border: none;
+border-radius: 6px;
+box-shadow: -5px 0px 20px #c85fcf;
+}
+
+.phone{
+    background: #00BFD8;
+    border: none;
+    border-radius: 6px;
+    box-shadow: -5px 0px 20px #6ecad6;
+}
+
+.location{
+    background: #00B341;
+    border: none;
+    border-radius: 6px;
+    box-shadow: -5px 0px 20px #38c56b;
+}
+
+.dots{
+    background: #ff7b00;
+    border: none;
+    border-radius: 6px;
+    box-shadow: -5px 0px 20px #ff7b00;
+}
+
+
+
+
